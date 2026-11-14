@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/certpin/4",
+  "kid": "k-revoked",
+  "sig": "fPTySLe6IvwQlfNsSHf77IgNkWU5Dh4EMh6_Q9csujk",
+  "_sign_line": "v1|k-revoked|500ac36586fa6fd4f953d15651021d319779c55748f1bb7b372b3c824ac77f17"
+}

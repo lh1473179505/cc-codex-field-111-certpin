@@ -1,0 +1,9 @@
+{
+  "case": "ok-backup",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/certpin/1",
+  "kid": "k-active",
+  "sig": "fWsSd-uswvB-3KtDwW5NmLdyQQxpjqxNLE5WNVuSiJk",
+  "_sign_line": "v1|k-active|1fa959ddef391d399176155bf067b5b9fd13a62195a4667db913a12bcba6b848"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/certpin/0",
+  "kid": "k-active",
+  "sig": "lTCwa-3kiGPBD2QLfsACnTzDwxRiu47XvWOPhAcJxHE",
+  "_sign_line": "v1|k-active|7dda70d790d91d74ac6586f46a90e931ddd73a88b52396c1a1d451a86ac3cac0"
+}

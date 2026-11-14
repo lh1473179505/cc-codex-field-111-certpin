@@ -1,0 +1,9 @@
+{
+  "case": "wrong-host",
+  "id": "deny-2",
+  "marker": "wrong-host",
+  "path": "/evil/certpin/2",
+  "kid": "k-active",
+  "sig": "Zzt52fIys4d8KPnjvkVqlYgHky32E43tvr2D_bpxbqc",
+  "_sign_line": "v1|k-active|b2444cbe54c62676bcde6cdbf4c4d6c9c0ac2712dceda4bc3a6141e811e73a23"
+}

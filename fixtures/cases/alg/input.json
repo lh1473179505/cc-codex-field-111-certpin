@@ -1,0 +1,9 @@
+{
+  "case": "alg",
+  "id": "deny-3",
+  "marker": "alg",
+  "path": "/evil/certpin/3",
+  "kid": "k-active",
+  "sig": "5CiXjH5Fv7Xf77kM0q5ZqYRzLFrImKIeQy6TDw1Jfd0",
+  "_sign_line": "v1|k-active|4b96b22719c9db9e1651bb109d53e51236c4264297e4cc56fb7905dc1fa1ff4d"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "leaf-only-ignore-backup-fail",
+  "id": "deny-7",
+  "marker": "leaf-only-ignore-backup-fail",
+  "path": "/evil/certpin/7",
+  "kid": "k-active",
+  "sig": "1-BbTUQxZb_EKQAf7uHwceBnmJEkUR3hEdUZv1Z3fBs",
+  "_sign_line": "v1|k-active|9207b01e078cfba278fc71461b6cd92acf8d3aba8394d32f94f2bbf107b07976"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "malformed",
+  "id": "deny-6",
+  "marker": "malformed",
+  "path": "/evil/certpin/6",
+  "kid": "k-active",
+  "sig": "yeQT8Hb4m07rKnrXbHmiLiFhvANYS4L8xk76XUYJNw8",
+  "_sign_line": "v1|k-active|9074e28ae65f626908c36382576debd04f4c40f4b3a8a6f7abfc2efb29e02306"
+}

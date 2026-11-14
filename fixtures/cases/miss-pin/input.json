@@ -1,0 +1,9 @@
+{
+  "case": "miss-pin",
+  "id": "deny-1",
+  "marker": "miss-pin",
+  "path": "/evil/certpin/1",
+  "kid": "k-active",
+  "sig": "qezUlJgroi4k5JQKuYGfokYrFP63jasel5dXuTXDTks",
+  "_sign_line": "v1|k-active|210de595f97e09ac76c2536dfc40ed2a1f1a40c9b36de93ce24985953b46e5c7"
+}

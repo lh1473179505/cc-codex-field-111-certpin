@@ -1,0 +1,9 @@
+{
+  "case": "empty",
+  "id": "deny-5",
+  "marker": "empty",
+  "path": "/evil/certpin/5",
+  "kid": "k-active",
+  "sig": "94Giiplr106EDrQjvdSka_tRR0qoLfg6G_SwmBYnhlA",
+  "_sign_line": "v1|k-active|6954cf7c80b0c92373333f2bb4c1dfd7b67b524aabcb7e9eda30b26f94ab4ccc"
+}

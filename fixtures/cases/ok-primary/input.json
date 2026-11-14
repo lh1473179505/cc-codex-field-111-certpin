@@ -1,0 +1,9 @@
+{
+  "case": "ok-primary",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/certpin/0",
+  "kid": "k-active",
+  "sig": "iFEFkWk61gvA1euZDyjJhNf9eZgBOPkmhM3juZuAuiI",
+  "_sign_line": "v1|k-active|5d3e1aba82b31bb30936eebc1d9eaa5788d76edb314ca13c8b4501312593bc95"
+}
