@@ -21,6 +21,25 @@ HMAC-SHA256 over that line, then base64url without `=` padding.
 
 Deny must not write the store. Load failure must not write the store.
 
+## Reason codes
+
+Stable snake_case identifiers, one per failing gate:
+
+- `kid_unknown` / `kid_revoked`: key id missing from the key ring, or not
+  active (a revoked kid denies even when the HMAC itself verifies)
+- `bad_signature`: recomputed HMAC over the signing line does not match `sig`
+- `host_mismatch`: host is not an exact match
+- `unsupported_alg`: alg other than sha256
+- `pin_mismatch`: leaf SPKI sha256 hits neither pins nor backup_pins
+- `backup_pin_mismatch`: backup pin list inconsistent with the signed
+  commitment (a leaf-only check that ignores backup_pins misses this)
+- `empty_pins`: pins list is empty (load failure, exit 2)
+- `malformed_input`: input cannot be shaped into an admittable manifest
+  (load failure, exit 2)
+
+When only backup_pins hits, the decision is still allow and the report
+notes carry `backup_used`.
+
 ## Fixture expectations
 
 Allow cases: ok-primary, ok-backup
